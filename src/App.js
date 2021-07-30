@@ -38,11 +38,11 @@ export default function App() {
     }
 
     if (target.textContent.toLowerCase() === 'neutral') {
-      setGood(neutral + 1);
+      setNeutral(neutral + 1);
     }
 
     if (target.textContent.toLowerCase() === 'bad') {
-      setGood(bad + 1);
+      setBad(bad + 1);
     }
   };
 
